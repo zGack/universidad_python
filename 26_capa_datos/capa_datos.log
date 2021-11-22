@@ -1,0 +1,138 @@
+09:18:36 PM: DEBUG [logger_base.py: 12] Mensaje a nivel debug
+09:18:36 PM: INFO [logger_base.py: 13] Mensaje a nivel de INFO
+09:18:36 PM: WARNING [logger_base.py: 14] Mensaje a nivel de WARNING
+09:18:36 PM: ERROR [logger_base.py: 15] Mensaje a nivel de ERROR
+09:18:36 PM: CRITICAL [logger_base.py: 16] Mensaje a nivel de CRITICAL
+09:41:44 PM: DEBUG [Persona.py: 57] 
+            Id Persona: 1, Nombre: Sebastian,
+            Apellido:: Mena, Email: smf-mena@hotmail.com
+        
+09:42:50 PM: DEBUG [Persona.py: 50] 
+            Id Persona: 1, Nombre: Sebastian,
+            Apellido:: Mena, Email: smf-mena@hotmail.com
+        
+09:43:22 PM: DEBUG [Persona.py: 52] 
+            Id Persona: None, Nombre: Valentina,
+            Apellido:: Lozada, Email: None
+        
+09:45:13 PM: DEBUG [Persona.py: 54] 
+            Id Persona: None, Nombre: Valentina,
+            Apellido:: Lozada, Email: None
+        
+09:45:13 PM: DEBUG [Persona.py: 58] 
+            Id Persona: 1, Nombre: None,
+            Apellido:: None, Email: None
+        
+10:30:45 PM: DEBUG [Conexion.py: 23] Conexion exitosa: <connection object at 0x0000016C48F0E948; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+10:31:08 PM: ERROR [Conexion.py: 26] Ocurrio un error al intentar la conexion FATAL:  password authentication failed for user "postgres"
+
+10:31:25 PM: ERROR [Conexion.py: 26] Ocurrio un error al intentar la conexion FATAL:  password authentication failed for user "postgre"
+
+10:31:41 PM: DEBUG [Conexion.py: 23] Conexion exitosa: <connection object at 0x0000028AB402E948; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:10:31 PM: DEBUG [Conexion.py: 23] Conexion exitosa: <connection object at 0x000001CEEE59E948; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:10:31 PM: DEBUG [Conexion.py: 36] Se abrio correctamente le cursor: <cursor object at 0x000001CEF028C208; closed: 0>
+11:10:31 PM: DEBUG [persona_dao.py: 33] 
+            Id Persona: 1, Nombre: sebas,
+            Apellido:: mena, Email: smf-mena@gmail.com
+        
+11:10:31 PM: DEBUG [persona_dao.py: 33] 
+            Id Persona: 2, Nombre: valelo,
+            Apellido:: lochada, Email: analais@gmail.com
+        
+11:17:45 PM: DEBUG [Conexion.py: 23] Conexion exitosa: <connection object at 0x0000020D22F6E948; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:17:45 PM: DEBUG [Conexion.py: 36] Se abrio correctamente le cursor: <cursor object at 0x0000020D24A19E48; closed: 0>
+11:17:59 PM: DEBUG [Conexion.py: 23] Conexion exitosa: <connection object at 0x0000020515AAE948; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:17:59 PM: DEBUG [Conexion.py: 36] Se abrio correctamente le cursor: <cursor object at 0x0000020517539E48; closed: 0>
+11:17:59 PM: DEBUG [persona_dao.py: 35] Persona insertada: 
+            Id Persona: None, Nombre: Manolo,
+            Apellido:: Mena, Email: mmena@gmail.com
+        
+11:17:59 PM: DEBUG [persona_dao.py: 44] Personas insertadas: 1
+11:19:03 PM: DEBUG [Conexion.py: 23] Conexion exitosa: <connection object at 0x000001F0880BE948; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:19:18 PM: DEBUG [Conexion.py: 23] Conexion exitosa: <connection object at 0x000001DB77CDE948; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:19:18 PM: DEBUG [persona_dao.py: 35] Persona insertada: 
+            Id Persona: None, Nombre: Manolo,
+            Apellido:: Mena, Email: mmena@gmail.com
+        
+11:19:18 PM: DEBUG [persona_dao.py: 44] Personas insertadas: 1
+11:19:18 PM: DEBUG [Conexion.py: 36] Se abrio correctamente le cursor: <cursor object at 0x000001DB79D5AE48; closed: 0>
+11:19:18 PM: DEBUG [persona_dao.py: 49] 
+            Id Persona: 1, Nombre: sebas,
+            Apellido:: mena, Email: smf-mena@gmail.com
+        
+11:19:18 PM: DEBUG [persona_dao.py: 49] 
+            Id Persona: 2, Nombre: valelo,
+            Apellido:: lochada, Email: analais@gmail.com
+        
+11:19:18 PM: DEBUG [persona_dao.py: 49] 
+            Id Persona: 11, Nombre: Manolo,
+            Apellido:: Mena, Email: mmena@gmail.com
+        
+11:19:18 PM: DEBUG [persona_dao.py: 49] 
+            Id Persona: 12, Nombre: Manolo,
+            Apellido:: Mena, Email: mmena@gmail.com
+        
+11:27:32 PM: DEBUG [Conexion.py: 23] Conexion exitosa: <connection object at 0x0000021E55CBE948; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:30:20 PM: DEBUG [Conexion.py: 23] Conexion exitosa: <connection object at 0x000001F3A990E948; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:30:20 PM: DEBUG [persona_dao.py: 46] Persona actualizada: 
+            Id Persona: 1, Nombre: Sopitas,
+            Apellido:: Mena, Email: smf-mena@hotmail.com
+        
+11:30:20 PM: DEBUG [persona_dao.py: 59] Persona actualizadas: 1
+11:30:20 PM: DEBUG [persona_dao.py: 64] 
+            Id Persona: 1, Nombre: Sopitas,
+            Apellido:: Mena, Email: smf-mena@hotmail.com
+        
+11:30:20 PM: DEBUG [persona_dao.py: 64] 
+            Id Persona: 2, Nombre: valelo,
+            Apellido:: lochada, Email: analais@gmail.com
+        
+11:30:20 PM: DEBUG [persona_dao.py: 64] 
+            Id Persona: 11, Nombre: Manolo,
+            Apellido:: Mena, Email: mmena@gmail.com
+        
+11:30:20 PM: DEBUG [persona_dao.py: 64] 
+            Id Persona: 12, Nombre: Manolo,
+            Apellido:: Mena, Email: mmena@gmail.com
+        
+11:33:25 PM: DEBUG [Conexion.py: 23] Conexion exitosa: <connection object at 0x0000020F3C4BE948; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:34:07 PM: DEBUG [Conexion.py: 23] Conexion exitosa: <connection object at 0x0000027C7F26E948; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:34:19 PM: DEBUG [Conexion.py: 23] Conexion exitosa: <connection object at 0x000002C687F1E948; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:36:29 PM: DEBUG [Conexion.py: 23] Conexion exitosa: <connection object at 0x00000267B911E948; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:37:56 PM: DEBUG [Conexion.py: 23] Conexion exitosa: <connection object at 0x00000221CC40E948; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:37:56 PM: DEBUG [persona_dao.py: 56] Persona eliminada: 
+            Id Persona: 12, Nombre: None,
+            Apellido:: None, Email: None
+        
+11:37:56 PM: DEBUG [persona_dao.py: 75] Personas eliminadas: 1
+11:37:56 PM: DEBUG [persona_dao.py: 81] 
+            Id Persona: 1, Nombre: Sopitas,
+            Apellido:: Mena, Email: smf-mena@hotmail.com
+        
+11:37:56 PM: DEBUG [persona_dao.py: 81] 
+            Id Persona: 2, Nombre: valelo,
+            Apellido:: lochada, Email: analais@gmail.com
+        
+11:37:56 PM: DEBUG [persona_dao.py: 81] 
+            Id Persona: 11, Nombre: Manolo,
+            Apellido:: Mena, Email: mmena@gmail.com
+        
+11:38:12 PM: DEBUG [Conexion.py: 23] Conexion exitosa: <connection object at 0x000001AEC5A6E948; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:38:12 PM: DEBUG [persona_dao.py: 56] Persona eliminada: 
+            Id Persona: 12, Nombre: None,
+            Apellido:: None, Email: None
+        
+11:38:12 PM: DEBUG [persona_dao.py: 75] Personas eliminadas: 0
+11:38:12 PM: DEBUG [persona_dao.py: 81] 
+            Id Persona: 1, Nombre: Sopitas,
+            Apellido:: Mena, Email: smf-mena@hotmail.com
+        
+11:38:12 PM: DEBUG [persona_dao.py: 81] 
+            Id Persona: 2, Nombre: valelo,
+            Apellido:: lochada, Email: analais@gmail.com
+        
+11:38:12 PM: DEBUG [persona_dao.py: 81] 
+            Id Persona: 11, Nombre: Manolo,
+            Apellido:: Mena, Email: mmena@gmail.com
+        
+01:59:43 PM: DEBUG [Conexion.py: 23] Conexion exitosa: <connection object at 0x000001825679E948; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
