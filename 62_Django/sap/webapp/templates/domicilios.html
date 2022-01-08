@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domicilios</title>
+</head>
+<body>
+   <h1>Sistema de Administracion de Personas (SAP)</h1> 
+   <div>
+       Numero de Domicilios: {{num_domicilios}}
+   </div>
+   <div>
+       <a href="nuevo_domicilio">Agregar Domicilio</a>
+   </div>
+   <div>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Calle</th>
+                    <th>Pais</th>
+                    <th>Numero de calle</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for domicilio in domicilios %}
+                <tr>
+                    <td>{{domicilio.id}}</td>
+                    <td>{{domicilio.calle}}</td>
+                    <td>{{domicilio.pais}}</td>
+                    <td>{{domicilio.num_calle}}</td>
+                    <td><a href="detalle_domicilio/{{domicilio.id}}">Ver</a></td>
+                    <td><a href="editar_domicilio/{{domicilio.id}}">Editar</a></td>
+                    <td><a href="eliminar_domicilio/{{domicilio.id}}">Eliminar</a></td>
+                </tr>
+                {% endfor%}
+            </tbody>
+        </table>
+   </div>
+   <div>
+       <a href="{% url 'index' %}">Volver</a>
+   </div>
+</body>
+</html>
